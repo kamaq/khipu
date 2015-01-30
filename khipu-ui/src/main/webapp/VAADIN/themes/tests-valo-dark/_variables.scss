@@ -1,0 +1,48 @@
+$v-app-loading-text: "Dark Valo";
+$v-background-color: #444d50;
+$v-focus-color: #07a9ca;
+$v-focus-style: 0 0 3px 2px $v-focus-color;
+$v-bevel-depth: 40%;
+$v-gradient: v-linear 12%;
+$v-border-radius: 10px;
+$v-font-family: Roboto, sans-serif;
+$v-font-weight: 400;
+$v-font-weight--header: 400;
+$v-bevel: inset 0 1px 2px v-tint, inset 0 0 1px (v-tint 0.1);
+$v-shadow: 0 0 0 3px rgba(0,0,0,0.32), 0 1px 0 3px rgba(255,255,255,0.14);
+$v-textfield-bevel: inset 0 2px 2px v-shade;
+$v-textfield-shadow: $v-shadow;
+$v-unit-size: 28px;
+$v-overlay-shadow: 0 0 0 3px (v-shade 8), 0 5px 10px (v-shade 4);
+$v-component-group-spacing: 6px;
+
+// Global variable overrides. Must be declared before importing Valo.
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+$v-font-size: 12px;
+$v-font-weight: 300;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(220, 1%, 92%);
+
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-panel-background-color: #021870;
+//$v-font-color: white;
+$v-layout-margin-top: 3px;
+$v-layout-margin-bottom: 3px;
+$v-layout-margin-right: 5px;
+$v-layout-margin-left: 5px;
+
+// Affects the visual appearance of all components
+//$v-shadow-opacity: 20%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: #FE2E2E;
+//$v-selection-color: #FFAEAE;
+
+
+@import "../valo/valo";
+
+@mixin khipu {
+  @include valo;
+  
+}

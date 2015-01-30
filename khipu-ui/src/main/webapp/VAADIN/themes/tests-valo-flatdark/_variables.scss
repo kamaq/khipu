@@ -1,0 +1,49 @@
+$v-app-loading-text: "Dark & Flat Valo";
+
+$v-background-color: #000;
+$v-focus-color: #ffa500;
+$v-font-size: 15px;
+$v-font-weight: 600;
+$v-unit-size: 28px;
+$v-bevel: false;
+$v-shadow: false;
+$v-gradient: false;
+$v-textfield-bevel: false;
+$v-textfield-shadow: false;
+$v-border-radius: 0;
+$v-border: 2px solid v-tone;
+$v-overlay-shadow: 0 0 0 2px (v-tint 10);
+$v-focus-style: $v-focus-color;
+$v-font-family: "Lato", sans-serif;
+$v-font-weight--header: 600;
+
+// Global variable overrides. Must be declared before importing Valo.
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+$v-font-size: 12px;
+$v-font-weight: 300;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(220, 1%, 92%);
+
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-panel-background-color: #021870;
+//$v-font-color: white;
+$v-layout-margin-top: 3px;
+$v-layout-margin-bottom: 3px;
+$v-layout-margin-right: 5px;
+$v-layout-margin-left: 5px;
+
+// Affects the visual appearance of all components
+//$v-shadow-opacity: 20%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: #FE2E2E;
+//$v-selection-color: #FFAEAE;
+
+
+@import "../valo/valo";
+
+@mixin khipu {
+  @include valo;
+  
+}

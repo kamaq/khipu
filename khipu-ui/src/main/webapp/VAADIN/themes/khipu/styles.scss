@@ -1,0 +1,60 @@
+@import "addons.scss";
+@import "khipu.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in khipu.scss */
+.khipu {
+  @include addons;
+  @include khipu;
+}
+$raw-backgroundColor: #404040;
+$raw-borderColor: #FE2E2E;
+$raw-sizeFormTitle: 17px;
+$raw-sizeWindowTitle: 15px;
+$raw-black: #151414;
+
+.raw-title {
+    font-size : $raw-sizeFormTitle;
+    font-weight: bold;
+    color: white;
+}
+.raw-background-color{
+    background-color: $raw-backgroundColor;
+}
+.raw-toolbar-option {
+    font-size : 10px;
+    color : $raw-backgroundColor;
+}
+.raw-product-title{
+    color : $raw-backgroundColor;
+    font-size : 60px;
+    font-weight: bold;
+}
+.raw-product-description{
+    color : $raw-backgroundColor;
+    font-size : 40px;
+}
+.raw-button-image{
+    font-size : 15px;
+}
+
+.optionSelected:hover{
+      background-color: $raw-backgroundColor;
+      border-style:solid;
+      border-color:$raw-borderColor;
+}
+
+.v-window-header {
+    font-size : $raw-sizeWindowTitle;
+    font-weight: bold;
+}
+.v-window-outerheader {
+    background-color: $raw-black;    
+}
+.v-window-maximizebox {
+    background-color: $raw-black;    
+}
+.v-window-closebox {
+    background-color: $raw-black;
+}
+

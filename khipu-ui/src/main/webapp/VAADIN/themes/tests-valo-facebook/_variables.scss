@@ -1,0 +1,54 @@
+$v-app-loading-text: "Facebook Valo";
+$v-background-color: #fafafa;
+$v-app-background-color: #e7ebf2;
+$v-panel-background-color: #fff;
+$v-focus-color: #3b5998;
+$v-focus-style: 0 0 1px 1px rgba($v-focus-color, .5);
+$v-border-radius: 3px;
+$v-textfield-border-radius: 0;
+$v-font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
+$v-font-size: 14px;
+$v-font-color: #37404E;
+$v-font-weight: 400;
+$v-link-text-decoration: none;
+$v-shadow: 0 1px 0 (v-shade 0.2);
+$v-bevel: inset 0 1px 0 v-tint;
+$v-unit-size: 28px;
+$v-gradient: v-linear 12%;
+$v-overlay-shadow: 0 3px 8px v-shade, 0 0 0 1px (v-shade 0.7);
+$v-shadow-opacity: 20%;
+$v-selection-overlay-padding-horizontal: 0;
+$v-selection-overlay-padding-vertical: 6px;
+$v-selection-item-border-radius: 0;
+
+
+// Global variable overrides. Must be declared before importing Valo.
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+$v-font-size: 12px;
+$v-font-weight: 300;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(220, 1%, 92%);
+
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-panel-background-color: #021870;
+//$v-font-color: white;
+$v-layout-margin-top: 3px;
+$v-layout-margin-bottom: 3px;
+$v-layout-margin-right: 5px;
+$v-layout-margin-left: 5px;
+
+// Affects the visual appearance of all components
+//$v-shadow-opacity: 20%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: #FE2E2E;
+//$v-selection-color: #FFAEAE;
+
+
+@import "../valo/valo";
+
+@mixin khipu {
+  @include valo;
+  
+}

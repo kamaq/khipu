@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<khipu-server>
+<global-parameters>
+<default-language>es</default-language>
+</global-parameters>
+ <mail-server>
+  <mail-smtp-server>smtp.gmail.com</mail-smtp-server>
+  <mail-smtp-port>587</mail-smtp-port>
+  <mail-smtp-user>khipu.app@gmail.com</mail-smtp-user>
+  <mail-smtp-password>khipu2014</mail-smtp-password>
+ </mail-server>
+</khipu-server>

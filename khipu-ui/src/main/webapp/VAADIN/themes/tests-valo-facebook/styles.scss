@@ -1,0 +1,55 @@
+@import "variables";
+@import "../tests-valo/valotest";
+
+.tests-valo-facebook {
+   @include valotest;
+}
+
+$raw-backgroundColor: $v-background-color;
+$raw-borderColor: $v-focus-color;
+$raw-sizeFormTitle: 17px;
+$raw-sizeWindowTitle: 15px;
+$raw-black: $v-background-color;
+
+.raw-title {
+    font-size : $raw-sizeFormTitle;
+    font-weight: bold;
+}
+.raw-background-color{
+    background-color: $raw-backgroundColor;
+}
+.raw-toolbar-option {
+    color: black;
+    font-size : 10px;
+}
+.raw-product-title{
+    font-size : 60px;
+    font-weight: bold;
+}
+.raw-product-description{
+    font-size : 40px;
+}
+.raw-button-image{
+    font-size : 15px;
+}
+
+
+.optionSelected:hover{
+      background-color: $raw-backgroundColor;
+      border-style:solid;
+      border-color:$raw-borderColor;
+}
+
+.v-window-header {
+    font-size : $raw-sizeWindowTitle;
+    font-weight: bold;
+}
+.v-window-outerheader {
+    background-color: $raw-black;    
+}
+.v-window-maximizebox {
+    background-color: $raw-black;    
+}
+.v-window-closebox {
+    background-color: $raw-black;    
+}

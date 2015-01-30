@@ -1,0 +1,53 @@
+$v-app-loading-text: "Light Valo";
+
+$v-background-color: hsl(0, 0, 99.5%);
+$v-app-background-color: #fff;
+$v-focus-color: hsl(218, 80%, 60%);
+$v-border: 1px solid (v-shade 0.6);
+$v-border-radius: 3px;
+$v-bevel: inset 0 1px 0 v-tint;
+$v-textfield-bevel: false;
+$v-gradient: v-linear 3%;
+$v-shadow: false;
+$valo-menu-background-color: hsl(218, 20%, 98%);
+$v-friendly-color: hsl(163, 61%, 41%);
+$v-error-indicator-color: hsl(349, 66%, 56%);
+
+
+// Global variable overrides. Must be declared before importing Valo.
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+$v-font-size: 12px;
+$v-font-weight: 300;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(220, 1%, 92%);
+
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-panel-background-color: #021870;
+//$v-font-color: white;
+$v-layout-margin-top: 3px;
+$v-layout-margin-bottom: 3px;
+$v-layout-margin-right: 5px;
+$v-layout-margin-left: 5px;
+
+// Affects the visual appearance of all components
+//$v-shadow-opacity: 20%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: #FE2E2E;
+//$v-selection-color: #FFAEAE;
+
+
+@import "../valo/valo";
+
+.tests-valo-light .valo-menu .valo-menu-title {
+  background: $v-app-background-color;
+  color: $v-selection-color;
+  text-shadow: none;
+  border-color: first-color(valo-border($color: $v-app-background-color, $strength: 0.5));
+}
+
+@mixin khipu {
+  @include valo;
+  
+}
