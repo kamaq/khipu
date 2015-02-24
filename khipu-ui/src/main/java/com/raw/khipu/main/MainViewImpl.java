@@ -61,8 +61,8 @@ public class MainViewImpl extends CustomComponent implements MainView, ClickList
 
     // Top Page
     Image logoApp = (Image) app.getAppLogo();
-    logoApp.setWidth("120px");
-    logoApp.setHeight("50px");
+    logoApp.setWidth("95px");
+    logoApp.setHeight("60px");
 
     // Tool Bar
     GridLayout toolBarLayout = new GridLayout(5, 2);

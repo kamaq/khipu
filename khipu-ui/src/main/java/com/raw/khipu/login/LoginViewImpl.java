@@ -80,8 +80,8 @@ public class LoginViewImpl extends CustomComponent implements LoginView, ClickLi
 
     Page.getCurrent().setTitle(app.getMessageLocale(AppMessages.AppTitle));
     Image logoApp = app.getAppLogo();
-    logoApp.setWidth("120px");
-    logoApp.setHeight("50px");
+    logoApp.setWidth("110px");
+    logoApp.setHeight("70px");
     itemsLayout.addComponent(logoApp);
     itemsLayout.setComponentAlignment(logoApp, Alignment.MIDDLE_CENTER);
 
