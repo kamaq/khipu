@@ -36,11 +36,11 @@ public class KhipuConfig extends DefaultHandler {
     // Debe ejecutarse la clase dentro del home del proyecto
     if (OS.isWindows()) {
       // this.xmlFileName = "conf\\config.xml"; // Windows
-      this.xmlFileName = servletPath + "WEB-INF\\conf\\" + "khipu-config.xml";
+      this.xmlFileName = servletPath + "\\WEB-INF\\conf\\" + "khipu-config.xml";
     }
     if (OS.isUnix()) {
       // this.xmlFileName = "conf/config.xml"; // Linux
-      this.xmlFileName = servletPath + "WEB-INF/conf/" + "khipu-config.xml";
+      this.xmlFileName = servletPath + "/WEB-INF/conf/" + "khipu-config.xml";
     }
     parseDocument();
   }
