@@ -7,6 +7,23 @@ A web application based on Vaadin framework.
 
 Template for a full-blown Vaadin application that only requires a Servlet 3.0 container to run (no other JEE dependencies).
 
+Features
+========
+
+This application includes:
+
+- Managing roles and rights
+- i18n support. 
+- Multiple themes
+
+Project made with:
+- Vaadin framework (Archetype Maven)
+- Jasper Reports
+- Mozzila PDF.js
+- JPA
+- MySQL
+- Git
+
 
 Project Structure
 =================
@@ -96,19 +113,3 @@ Restore Account page
 
 ![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_restore_account.jpeg)
 
-Characteristics
-===============
-
-##This application includes:
-
-- Managing roles and rights
-- i18n support. 
-- Multiple themes
-
-##Project made with:
-- Vaadin framework (Archetype Maven)
-- Jasper Reports
-- Mozzila PDF.js
-- JPA
-- MySQL
-- Git
