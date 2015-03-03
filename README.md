@@ -67,3 +67,33 @@ in "debug") in the IDE can speed up consecutive on-the-fly theme compilations
 significantly.
 
 The production module always automatically precompiles the theme for the production WAR.
+
+
+Screenshots
+===========
+
+Login page
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_main.jpeg)
+
+Menu Application
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_menu.jpeg)
+
+Forms
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_forms.jpeg)
+
+Reports
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_report.jpeg)
+
+Reports sent by e-mail
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_report_mail.jpeg)
+
+Restore Account page
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/screenshots/khipu_restore_account.jpeg)
+
+
