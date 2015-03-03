@@ -1,7 +1,9 @@
 khipu
-==============
+========
 
 A web application based on Vaadin framework.
+
+![](https://github.com/kamaq/khipu/blob/master/khipu-ui/src/main/webapp/WEB-INF/images/main/main_image.png)
 
 Template for a full-blown Vaadin application that only requires a Servlet 3.0 container to run (no other JEE dependencies).
 
